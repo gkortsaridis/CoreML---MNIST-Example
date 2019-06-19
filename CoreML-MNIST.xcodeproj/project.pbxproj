@@ -12,6 +12,8 @@
 		2BAF004322BAD49700914EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF004122BAD49700914EC8 /* Main.storyboard */; };
 		2BAF004522BAD49900914EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF004422BAD49900914EC8 /* Assets.xcassets */; };
 		2BAF004822BAD49900914EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF004622BAD49900914EC8 /* LaunchScreen.storyboard */; };
+		2BAF005022BAD4DB00914EC8 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF004F22BAD4DB00914EC8 /* MNISTClassifier.mlmodel */; };
+		2BAF005222BAD50C00914EC8 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF005122BAD50C00914EC8 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2BAF004422BAD49900914EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BAF004722BAD49900914EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BAF004922BAD49900914EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAF004F22BAD4DB00914EC8 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
+		2BAF005122BAD50C00914EC8 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		2BAF003C22BAD49700914EC8 /* CoreML-MNIST */ = {
 			isa = PBXGroup;
 			children = (
+				2BAF004F22BAD4DB00914EC8 /* MNISTClassifier.mlmodel */,
 				2BAF003D22BAD49700914EC8 /* AppDelegate.swift */,
 				2BAF003F22BAD49700914EC8 /* ViewController.swift */,
 				2BAF004122BAD49700914EC8 /* Main.storyboard */,
 				2BAF004422BAD49900914EC8 /* Assets.xcassets */,
 				2BAF004622BAD49900914EC8 /* LaunchScreen.storyboard */,
 				2BAF004922BAD49900914EC8 /* Info.plist */,
+				2BAF005122BAD50C00914EC8 /* DrawView.swift */,
 			);
 			path = "CoreML-MNIST";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				2BAF004022BAD49700914EC8 /* ViewController.swift in Sources */,
 				2BAF003E22BAD49700914EC8 /* AppDelegate.swift in Sources */,
+				2BAF005222BAD50C00914EC8 /* DrawView.swift in Sources */,
+				2BAF005022BAD4DB00914EC8 /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
